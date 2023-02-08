@@ -11,6 +11,11 @@
 		916726652993B29B00DBABA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726642993B29B00DBABA2 /* ContentView.swift */; };
 		916726672993B29F00DBABA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916726662993B29F00DBABA2 /* Assets.xcassets */; };
 		9167266A2993B29F00DBABA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916726692993B29F00DBABA2 /* Preview Assets.xcassets */; };
+		916726712993B2DA00DBABA2 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 916726702993B2DA00DBABA2 /* menu.json */; };
+		916726732993B36A00DBABA2 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726722993B36A00DBABA2 /* Drink.swift */; };
+		916726752993B42300DBABA2 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726742993B42300DBABA2 /* MenuSection.swift */; };
+		916726772993B45500DBABA2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726762993B45500DBABA2 /* Menu.swift */; };
+		916726792993B61B00DBABA2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726782993B61B00DBABA2 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		916726642993B29B00DBABA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		916726662993B29F00DBABA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		916726692993B29F00DBABA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		916726702993B2DA00DBABA2 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/CoolBeans/menu.json; sourceTree = "<group>"; };
+		916726722993B36A00DBABA2 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		916726742993B42300DBABA2 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		916726762993B45500DBABA2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		916726782993B61B00DBABA2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				916726622993B29B00DBABA2 /* CoolBeansApp.swift */,
 				916726642993B29B00DBABA2 /* ContentView.swift */,
+				916726782993B61B00DBABA2 /* MenuView.swift */,
+				916726722993B36A00DBABA2 /* Drink.swift */,
+				916726742993B42300DBABA2 /* MenuSection.swift */,
+				916726762993B45500DBABA2 /* Menu.swift */,
+				916726702993B2DA00DBABA2 /* menu.json */,
 				916726662993B29F00DBABA2 /* Assets.xcassets */,
 				916726682993B29F00DBABA2 /* Preview Content */,
 			);
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916726712993B2DA00DBABA2 /* menu.json in Resources */,
 				9167266A2993B29F00DBABA2 /* Preview Assets.xcassets in Resources */,
 				916726672993B29F00DBABA2 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				916726652993B29B00DBABA2 /* ContentView.swift in Sources */,
+				916726792993B61B00DBABA2 /* MenuView.swift in Sources */,
+				916726732993B36A00DBABA2 /* Drink.swift in Sources */,
+				916726752993B42300DBABA2 /* MenuSection.swift in Sources */,
 				916726632993B29B00DBABA2 /* CoolBeansApp.swift in Sources */,
+				916726772993B45500DBABA2 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
