@@ -16,6 +16,11 @@
 		916726752993B42300DBABA2 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726742993B42300DBABA2 /* MenuSection.swift */; };
 		916726772993B45500DBABA2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726762993B45500DBABA2 /* Menu.swift */; };
 		916726792993B61B00DBABA2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726782993B61B00DBABA2 /* MenuView.swift */; };
+		9167267B2993BAF400DBABA2 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167267A2993BAF400DBABA2 /* CustomizeView.swift */; };
+		9167267D2993D5DE00DBABA2 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167267C2993D5DD00DBABA2 /* ConfigurationOption.swift */; };
+		9167267F2994189D00DBABA2 /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167267E2994189D00DBABA2 /* Serving.swift */; };
+		916726812994195700DBABA2 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916726802994195700DBABA2 /* FileManager-DocumentsDirectory.swift */; };
+		91672683299419B400DBABA2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91672682299419B400DBABA2 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		916726742993B42300DBABA2 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
 		916726762993B45500DBABA2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		916726782993B61B00DBABA2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9167267A2993BAF400DBABA2 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		9167267C2993D5DD00DBABA2 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		9167267E2994189D00DBABA2 /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
+		916726802994195700DBABA2 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		91672682299419B400DBABA2 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +71,14 @@
 		916726612993B29B00DBABA2 /* CoolBeans */ = {
 			isa = PBXGroup;
 			children = (
+				9167267E2994189D00DBABA2 /* Serving.swift */,
+				916726802994195700DBABA2 /* FileManager-DocumentsDirectory.swift */,
+				91672682299419B400DBABA2 /* History.swift */,
+				9167267C2993D5DD00DBABA2 /* ConfigurationOption.swift */,
 				916726622993B29B00DBABA2 /* CoolBeansApp.swift */,
 				916726642993B29B00DBABA2 /* ContentView.swift */,
 				916726782993B61B00DBABA2 /* MenuView.swift */,
+				9167267A2993BAF400DBABA2 /* CustomizeView.swift */,
 				916726722993B36A00DBABA2 /* Drink.swift */,
 				916726742993B42300DBABA2 /* MenuSection.swift */,
 				916726762993B45500DBABA2 /* Menu.swift */,
@@ -156,9 +171,14 @@
 				916726652993B29B00DBABA2 /* ContentView.swift in Sources */,
 				916726792993B61B00DBABA2 /* MenuView.swift in Sources */,
 				916726732993B36A00DBABA2 /* Drink.swift in Sources */,
+				91672683299419B400DBABA2 /* History.swift in Sources */,
 				916726752993B42300DBABA2 /* MenuSection.swift in Sources */,
 				916726632993B29B00DBABA2 /* CoolBeansApp.swift in Sources */,
+				9167267D2993D5DE00DBABA2 /* ConfigurationOption.swift in Sources */,
+				916726812994195700DBABA2 /* FileManager-DocumentsDirectory.swift in Sources */,
+				9167267B2993BAF400DBABA2 /* CustomizeView.swift in Sources */,
 				916726772993B45500DBABA2 /* Menu.swift in Sources */,
+				9167267F2994189D00DBABA2 /* Serving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
